@@ -1,0 +1,15 @@
+{
+  "dataUrl": "Build/data.unityweb",
+  "asmCodeUrl": "Build/asm.code.unityweb",
+  "asmMemoryUrl": "Build/asm.memory.unityweb",
+  "asmFrameworkUrl": "Build/asm.framework.unityweb",
+  "wasmCodeUrl": "Build/wasm.code.unityweb",
+  "wasmFrameworkUrl": "Build/wasm.framework.unityweb",
+  "filePackageUrl": "Build/filepackage0",
+  "companyName": "StubCompany",
+  "productName": "StubProduct",
+  "productVersion": "1.0",
+  "imageUrl": "logo.png",
+  "backgroundColor": "#000000",
+  "showBanner": false
+}
