@@ -100,6 +100,7 @@
     <!--<script src="Build/UnityLoader.js"></script>-->
     <script>
 		var gameJsonUrl = "./CI/1v1/Prod/162/WebGL.json"; //%gameJsonUrl
+		var gameInstance = UnityLoader.instantiate("gameContainer", gameJsonUrl, {onProgress: UnityProgress});
 		var hostname = window.location.hostname;
 		if(hostname.indexOf("dev1v1") >= 0 || hostname.indexOf("dev.1v1") >= 0 || hostname.indexOf("test1v1") >= 0 || hostname.indexOf("test.1v1") >= 0) {
 			let urlParams = new URLSearchParams(window.location.search);
